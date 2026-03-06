@@ -1,0 +1,808 @@
+
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="es" xml:lang="es">
+<head>
+    <title>Mis cursos | LCH2026</title>
+    <link rel="shortcut icon" href="https://www.yosoyhispano.com/plataforma2026/pluginfile.php/1/theme_moove/favicon/1770086771/logo1.ico" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Mis cursos | LCH2026" />
+<link rel="stylesheet" type="text/css" href="https://www.yosoyhispano.com/plataforma2026/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://www.yosoyhispano.com/plataforma2026/theme/styles.php/moove/1770086771_1/all" />
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/www.yosoyhispano.com\/plataforma2026","apibase":"https:\/\/www.yosoyhispano.com\/plataforma2026\/r.php\/api","homeurl":{},"sesskey":"Xd2AaZFgBA","sessiontimeout":"3600","sessiontimeoutwarning":"1200","themerev":"1770086771","slasharguments":1,"theme":"moove","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1770086772","admin":"admin","svgicons":true,"usertimezone":"Am\u00e9rica\/Guatemala","language":"es","courseId":1,"courseContextId":2,"contextid":1,"contextInstanceId":0,"langrev":1772618584,"templaterev":"1770086772","siteId":1,"userId":1411};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/www.yosoyhispano.com\/plataforma2026\/lib\/yuilib\/3.18.1\/","comboBase":"https:\/\/www.yosoyhispano.com\/plataforma2026\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/www.yosoyhispano.com\/plataforma2026\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/www.yosoyhispano.com\/plataforma2026\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/www.yosoyhispano.com\/plataforma2026\/theme\/yui_combo.php?m\/1770086772\/","combine":true,"comboBase":"https:\/\/www.yosoyhispano.com\/plataforma2026\/theme\/yui_combo.php?","ext":false,"root":"m\/1770086772\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form","datatype-date-format"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-qbank_editquestion-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-beautify":{},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/www.yosoyhispano.com\/plataforma2026\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/www.yosoyhispano.com\/plataforma2026\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1770086772\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/www.yosoyhispano.com\/plataforma2026\/lib\/javascript.php\/1770086772\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/www.yosoyhispano.com\/plataforma2026\/lib\/javascript.php\/1770086772\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]}},"logInclude":[],"logExclude":[],"logLevel":null};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+<style>
+/* Ocultar botón 'Eliminar de la vista' globalmente */
+[data-action="hide-course"] {
+    display: none !important;
+}
+</style><link rel="preconnect" href="https://fonts.googleapis.com">
+                       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+                       <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body  id="page-my-index" class="limitedwidth page-mycourses format-site  path-my chrome dir-ltr lang-es yui-skin-sam yui3-skin-sam www-yosoyhispano-com--plataforma2026 pagelayout-mycourses course-1 context-1 theme uses-drawers drawer-open-index">
+<div id="accessibilitybar" class="fixed-top">
+    <div class="container-fluid">
+        <div class="bars">
+            <div class="fontsize">
+                <span>Tamaño de fuente</span>
+                <ul>
+                    <li><a class="btn btn-default" data-action="decrease" title="Disminuir tamaño de letras" id="fontsize_dec">A-</a></li>
+                    <li><a class="btn btn-default" data-action="reset" title="Reiniciar tamaño de letras" id="fontsize_reset">A</a></li>
+                    <li><a class="btn btn-default" data-action="increase" title="Disminuir tamaño de letras" id="fontsize_inc">A+</a></li>
+                </ul>
+            </div>
+            <div class="sitecolor">
+                <span>Color del sitio</span>
+                <ul>
+                    <li><a class="btn btn-default" data-action="reset" title="Reiniciar color del sitio" id="sitecolor_color1">R</a></li>
+                    <li><a class="btn btn-default" data-action="sitecolor-color-2" title="Bajo contraste 1" id="sitecolor_color2">A</a></li>
+                    <li><a class="btn btn-default" data-action="sitecolor-color-3" title="Bajo contraste 2" id="sitecolor_color3">A</a></li>
+                    <li><a class="btn btn-default" data-action="sitecolor-color-4" title="Alto contraste" id="sitecolor_color4">A</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="toast-wrapper mx-auto py-0 fixed-top" role="status" aria-live="polite"></div>
+<div id="page-wrapper" class="d-print-block">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Salta al contenido principal</a>
+</div><script src="https://www.yosoyhispano.com/plataforma2026/lib/javascript.php/1770086772/lib/polyfills/polyfill.js"></script>
+<script src="https://www.yosoyhispano.com/plataforma2026/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.js"></script><script src="https://www.yosoyhispano.com/plataforma2026/lib/javascript.php/1770086772/lib/javascript-static.js"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    <nav class="navbar fixed-top navbar-light bg-white navbar-expand shadow" aria-label="Navegación del sitio">
+    
+        <button class="navbar-toggler aabtn d-block d-md-none px-1 my-1 border-0" data-toggler="drawers" data-action="toggle" data-target="theme_moove-drawers-primary">
+            <span class="navbar-toggler-icon"></span>
+            <span class="sr-only">Panel lateral</span>
+        </button>
+    
+        <a href="https://www.yosoyhispano.com/plataforma2026/my/" class="navbar-brand d-none d-md-flex align-items-center m-0 mr-4 p-0 aabtn">
+                <img src="//www.yosoyhispano.com/plataforma2026/pluginfile.php/1/theme_moove/logo/1770086771/logo1%20%281%29.png" class="logo mr-1" alt="LCH2026">
+        </a>
+    
+            <div class="primary-navigation">
+                <nav class="moremenu navigation">
+                    <ul id="moremenu-69a8f8d0405b8-navbar-nav" role="menubar" class="nav more-nav navbar-nav">
+                                <li data-key="home" class="nav-item" role="none" data-forceintomoremenu="false">
+                                            <a role="menuitem" class="nav-link  "
+                                                href="https://www.yosoyhispano.com/plataforma2026/?redirect=0"
+                                                
+                                                
+                                                data-disableactive="true"
+                                                tabindex="-1"
+                                            >
+                                                Página Principal
+                                            </a>
+                                </li>
+                                <li data-key="myhome" class="nav-item" role="none" data-forceintomoremenu="false">
+                                            <a role="menuitem" class="nav-link  "
+                                                href="https://www.yosoyhispano.com/plataforma2026/my/"
+                                                
+                                                
+                                                data-disableactive="true"
+                                                tabindex="-1"
+                                            >
+                                                Área personal
+                                            </a>
+                                </li>
+                                <li data-key="mycourses" class="nav-item" role="none" data-forceintomoremenu="false">
+                                            <a role="menuitem" class="nav-link active "
+                                                href="https://www.yosoyhispano.com/plataforma2026/my/courses.php"
+                                                
+                                                aria-current="true"
+                                                data-disableactive="true"
+                                                
+                                            >
+                                                Mis cursos
+                                            </a>
+                                </li>
+                        <li role="none" class="nav-item dropdown dropdownmoremenu d-none" data-region="morebutton">
+                            <a class="dropdown-toggle nav-link " href="#" id="moremenu-dropdown-69a8f8d0405b8" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabindex="-1">
+                                Más
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-left" data-region="moredropdown" aria-labelledby="moremenu-dropdown-69a8f8d0405b8" role="menu">
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+    
+        <ul class="navbar-nav d-none d-md-flex my-1 px-1">
+            <!-- page_heading_menu -->
+            
+        </ul>
+    
+        <div id="usernavigation" class="navbar-nav ml-auto">
+            <div class="navbarcallbacks">
+                
+            </div>
+            <div class="popover-region collapsed popover-region-notifications"
+    id="nav-notification-popover-container" data-userid="1411"
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link icon-no-margin"
+        data-region="popover-region-toggle"
+        aria-controls="popover-region-container-69a8f8d043d5969a8f8d041b2d3"
+        aria-haspopup="true"
+        aria-expanded="false"
+        aria-label=" Mostrar la ventana de notificaciones cuando no hay ninguna   "
+        title=" Mostrar la ventana de notificaciones cuando no hay ninguna   "
+        tabindex="0"
+        role="button">
+                <i class="icon fa-regular fa-bell" title="Mostrar/ocultar menú de notificaciones"></i>
+        <div
+            class="count-container hidden"
+            data-region="count-container"
+            aria-hidden=true
+        >
+            0
+        </div>
+
+    </div>
+    <div 
+        id="popover-region-container-69a8f8d043d5969a8f8d041b2d3"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-hidden="true"
+        aria-label="Ventana de notificación"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Notificaciones</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <a class="mark-all-read-button"
+           href="#"
+           title="Marcar como leído"
+           data-action="mark-all-read"
+           role="button"
+           aria-label="Marcar como leído">
+            <span class="normal-icon"><i class="icon fa fa-check fa-fw " aria-hidden="true" ></i></span>
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-spinner fa-spin fa-fw "  title="Cargando" role="img" aria-label="Cargando"></i></span>
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications"
+            data-region="all-notifications"
+            role="log"
+            aria-busy="false"
+            aria-atomic="false"
+            aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">No tienes notificaciones</div>
+
+            </div>
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-spinner fa-spin fa-fw "  title="Cargando" role="img" aria-label="Cargando"></i></span>
+        </div>
+                <a class="see-all-link"
+                    href="https://www.yosoyhispano.com/plataforma2026/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">Ver todo</div>
+                    </div>
+                </a>
+    </div>
+</div>
+            <div class="d-flex align-items-stretch usermenu-container" data-region="usermenu">
+                    <div class="usermenu">
+                            <div class="dropdown show">
+                                <a href="#" role="button" id="user-menu-toggle" data-toggle="dropdown" aria-label="Menú de usuario"
+                                   aria-haspopup="true" aria-controls="user-action-menu" class="btn dropdown-toggle">
+                                    <span class="userbutton">
+                                        <span class="avatars">
+                                                <span class="avatar current">
+                                                    <span class="userinitials size-35" title="JESÚS ENRIQUE TUCUBAL IXÉN" aria-label="JESÚS ENRIQUE TUCUBAL IXÉN" role="img">JT</span>
+                                                </span>
+                                        </span>
+                                    </span>
+                                </a>
+                                <div id="user-action-menu" class="dropdown-menu dropdown-menu-right">
+                                    <div id="usermenu-carousel" class="carousel slide" data-touch="false" data-interval="false" data-keyboard="false">
+                                        <div class="carousel-inner">
+                                            <div id="carousel-item-main" class="carousel-item active" role="menu" tabindex="-1" aria-label="Usuario">
+                                                <a id="accessibilitysettings-control" href="#" class="dropdown-item" role="menuitem" tabindex="-1" aria-label="Accesibilidad">
+                                                    Accesibilidad
+                                                </a>
+                    
+                                                <div class="dropdown-divider"></div>
+                    
+                                                        <a href="https://www.yosoyhispano.com/plataforma2026/user/profile.php" class="dropdown-item" role="menuitem" tabindex="-1">
+                                                                
+                                                            Perfil
+                                                        </a>
+                                                    
+                                                        <a href="https://www.yosoyhispano.com/plataforma2026/grade/report/overview/index.php" class="dropdown-item" role="menuitem" tabindex="-1">
+                                                                
+                                                            Calificaciones
+                                                        </a>
+                                                    
+                                                        <a href="https://www.yosoyhispano.com/plataforma2026/calendar/view.php?view=month" class="dropdown-item" role="menuitem" tabindex="-1">
+                                                                
+                                                            Calendario
+                                                        </a>
+                                                    
+                                                        <a href="https://www.yosoyhispano.com/plataforma2026/user/files.php" class="dropdown-item" role="menuitem" tabindex="-1">
+                                                                
+                                                            Archivos privados
+                                                        </a>
+                                                    
+                                                        <a href="https://www.yosoyhispano.com/plataforma2026/reportbuilder/index.php" class="dropdown-item" role="menuitem" tabindex="-1">
+                                                                
+                                                            Informes
+                                                        </a>
+                                                    
+                                                    <div class="dropdown-divider"></div>
+                                                        <a href="https://www.yosoyhispano.com/plataforma2026/user/preferences.php" class="dropdown-item" role="menuitem" tabindex="-1">
+                                                                
+                                                            Preferencias
+                                                        </a>
+                                                    
+                                                        <a href="#" class="carousel-navigation-link dropdown-item" role="menuitem" tabindex="-1" data-carousel-target-id="carousel-item-69a8f8d040a00">
+                                                                
+                                                            Idioma
+                                                        </a>
+                                                    <div class="dropdown-divider"></div>
+                                                        <a href="https://www.yosoyhispano.com/plataforma2026/login/logout.php?sesskey=Xd2AaZFgBA" class="dropdown-item" role="menuitem" tabindex="-1">
+                                                                
+                                                            Cerrar sesión
+                                                        </a>
+                                                    
+                                            </div>
+                                                <div id="carousel-item-69a8f8d040a00" class="carousel-item submenu" tabindex="-1" aria-label="Selector de idioma">
+                                                    <div class="d-flex flex-column h-100">
+                                                        <div class="header">
+                                                            <button type="button" class="btn btn-icon carousel-navigation-link text-decoration-none text-body" data-carousel-target-id="carousel-item-main" aria-label="Ir atrás al menú de usuario">
+                                                                <span class="dir-rtl-hide"><img class="icon " alt="" aria-hidden="true" src="https://www.yosoyhispano.com/plataforma2026/theme/image.php/moove/core/1770086771/i/arrow-left" /></span>
+                                                                <span class="dir-ltr-hide"><img class="icon " alt="" aria-hidden="true" src="https://www.yosoyhispano.com/plataforma2026/theme/image.php/moove/core/1770086771/i/arrow-right" /></span>
+                                                            </button>
+                                                            <span class="pl-2" id="carousel-item-title-69a8f8d040a00">Selector de idioma</span>
+                                                        </div>
+                                                        <div class="dropdown-divider"></div>
+                                                        <div class="items h-100 overflow-auto" role="menu" aria-labelledby="carousel-item-title-69a8f8d040a00">
+                                                                    <a href="https://www.yosoyhispano.com/plataforma2026/my/courses.php?lang=en" class="dropdown-item ps-5" role="menuitem" tabindex="-1" 
+                                                                        lang="en" >
+                                                                        English ‎(en)‎
+                                                                    </a>
+                                                                    <a href="#" class="dropdown-item ps-5" role="menuitem" tabindex="-1" aria-current="true"
+                                                                        >
+                                                                        Español - Internacional ‎(es)‎
+                                                                    </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+            </div>
+            
+        </div>
+    </nav>
+    
+    
+
+<div  class="drawer drawer-left drawer-primary d-print-none not-initialized" data-region="fixed-drawer" id="theme_moove-drawers-primary" data-preference="" data-state="show-drawer-primary" data-forceopen="0" data-close-on-resize="1">
+    <div class="drawerheader">
+        <button
+            class="btn drawertoggle icon-no-margin hidden"
+            data-toggler="drawers"
+            data-action="closedrawer"
+            data-target="theme_moove-drawers-primary"
+            data-toggle="tooltip"
+            data-placement="right"
+            title="Cerrar caja"
+        >
+            <i class="icon fa fa-xmark fa-fw " aria-hidden="true" ></i>
+        </button>
+                    LCH2026
+
+        <div class="drawerheadercontent hidden">
+            
+        </div>
+    </div>
+    <div class="drawercontent drag-container" data-usertour="scroller">
+                <div class="list-group">
+                <a href="https://www.yosoyhispano.com/plataforma2026/?redirect=0" class="list-group-item list-group-item-action  " >
+                    Página Principal
+                </a>
+                <a href="https://www.yosoyhispano.com/plataforma2026/my/" class="list-group-item list-group-item-action  " >
+                    Área personal
+                </a>
+                <a href="https://www.yosoyhispano.com/plataforma2026/my/courses.php" class="list-group-item list-group-item-action active " aria-current="true">
+                    Mis cursos
+                </a>
+        </div>
+
+    </div>
+</div>
+
+    <div id="page" data-region="mainpage" data-usertour="scroller" class="drawers   drag-container">
+
+        <header id="page-header" class="moove-container-fluid">
+    <div class="d-flex flex-wrap">
+        <div class="ml-auto d-flex">
+            
+        </div>
+        <div id="course-header">
+            
+        </div>
+    </div>
+    <div class="d-sm-flex align-items-center headerandnav">
+                <div class="mr-auto">
+                    <div class="page-context-header"><div class="page-header-headings"><h1 class="h2">Mis cursos</h1></div></div>
+                </div>
+        <div class="header-actions-container ml-auto" data-region="header-actions-container">
+        </div>
+
+    </div>
+</header>
+
+        <div id="topofscroll" class="main-inner">
+            <div class="drawer-toggles d-flex">
+            </div>
+
+            <div id="page-content" class="d-print-block">
+                <div id="region-main-box">
+                    <section id="region-main" aria-label="Contenido">
+
+                        <span class="notifications" id="user-notifications"></span>
+                        <div role="main"><span id="maincontent"></span><section id="block-region-content" class="block-region" data-blockregion="content" data-droptarget="1" aria-labelledby="content-block-region-heading"><h2 class="sr-only" id="content-block-region-heading">Bloques de contenido principales</h2><a href="#sb-1" class="sr-only sr-only-focusable">Salta Vista general de curso</a>
+
+<section id="inst5"
+     class=" block_myoverview block  card mb-3"
+     role="region"
+     data-block="myoverview"
+     data-instance-id="5"
+          aria-labelledby="instance-5-header"
+     >
+
+    <div class="card-body p-3">
+
+            <h3 id="instance-5-header" class="h5 card-title d-inline">Vista general de curso</h3>
+
+
+        <div class="card-text content mt-3">
+            <div id="block-myoverview-69a8f8d041b2a69a8f8d041b2d1" class="block-myoverview block-cards" data-region="myoverview" role="navigation">
+    <div role="search" data-region="filter" class="d-flex align-items-center my-2" aria-label="Controles de vista general de curso">
+        <div class="row g-0">
+            <div class="dropdown mb-1 me-1">
+                <button id="groupingdropdown" type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Menú desplegable de agrupación">
+                    <span data-active-item-text>
+                        
+                        Todos
+                        
+                        
+                        
+                        
+                        
+                        
+                    </span>
+                </button>
+                <ul class="dropdown-menu" role="menu" data-show-active-item data-skip-active-class="true" data-active-item-text aria-labelledby="groupingdropdown">
+                    <li class="dropdown-divider" role="presentation">
+                        <span class="filler">&nbsp;</span>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#" data-filter="grouping" data-value="all" data-pref="all" aria-label="Mostrar todos los cursos excepto los cursos archivados" aria-controls="courses-view-69a8f8d041b2a69a8f8d041b2d1" role="menuitem" aria-current="true">
+                            Todos
+                        </a>
+                    </li>
+                    <li class="dropdown-divider" role="presentation">
+                        <span class="filler">&nbsp;</span>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#" data-filter="grouping" data-value="inprogress" data-pref="inprogress" aria-label="Mostrar cursos activos" aria-controls="courses-view-69a8f8d041b2a69a8f8d041b2d1" role="menuitem" >
+                            En progreso
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#" data-filter="grouping" data-value="future" data-pref="future" aria-label="Mostrar cursos futuros" aria-controls="courses-view-69a8f8d041b2a69a8f8d041b2d1" role="menuitem" >
+                            Futuros
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#" data-filter="grouping" data-value="past" data-pref="past" aria-label="Mostrar cursos pasados" aria-controls="courses-view-69a8f8d041b2a69a8f8d041b2d1" role="menuitem" >
+                            Pasados
+                        </a>
+                    </li>
+                    <li class="dropdown-divider" role="presentation">
+                        <span class="filler">&nbsp;</span>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#" data-filter="grouping" data-value="favourites"  data-pref="favourites" aria-label="Mostrar sólo cursos destacados" aria-controls="courses-view-69a8f8d041b2a69a8f8d041b2d1" role="menuitem" >
+                            Destacados
+                        </a>
+                    <li class="dropdown-divider" role="presentation">
+                        <span class="filler">&nbsp;</span>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#" data-filter="grouping" data-value="hidden"  data-pref="hidden" aria-label="Mostrar cursos eliminados de la vista" aria-controls="courses-view-69a8f8d041b2a69a8f8d041b2d1" role="menuitem" >
+                            Eliminado de la vista
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mb-1 me-1 flex-grow-1">
+                            <div id="searchform-auto-69a8f8d041b2a69a8f8d041b2d1" class="d-flex flex-wrap align-items-center simplesearchform">
+                <div class="input-group searchbar w-100" role="search">
+                    <label for="searchinput-69a8f8d041b2a69a8f8d041b2d1">
+                        <span class="sr-only">Buscar cursos</span>
+                    </label>
+                    <input
+                       type="text"
+                       data-region="input"
+                       data-action="search"
+                       id="searchinput-69a8f8d041b2a69a8f8d041b2d1"
+                       class="form-control withclear rounded"
+                       placeholder="Buscar"
+                       name="search"
+                       value=""
+                       autocomplete="off"
+                       
+                    >
+                    <button
+                        class="btn btn-clear d-none"
+                        data-action="clearsearch"
+                        type="button"
+                    >
+                       <i class="icon fa fa-xmark fa-fw " aria-hidden="true" ></i>
+                        <span class="sr-only">Limpiar datos de búsqueda</span>
+                    </button>
+                </div>
+            </div>
+</div>
+
+            
+            <div class="mb-1 me-1 d-flex flex-wrap align-items-center">
+                <div class="dropdown">
+                    <button id="sortingdropdown" type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Ordenando menú desplegable">
+                        <span data-active-item-text>
+                            Ordenar por nombre del curso
+                            
+                            
+                        </span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" data-show-active-item data-skip-active-class="true" aria-labelledby="sortingdropdown">
+                        <li>
+                            <a class="dropdown-item" href="#" data-filter="sort" data-pref="title" data-value="fullname" aria-controls="courses-view-69a8f8d041b2a69a8f8d041b2d1" role="menuitem" aria-current="true">
+                                Ordenar por nombre del curso
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#" data-filter="sort" data-pref="lastaccessed" data-value="ul.timeaccess desc" aria-controls="courses-view-69a8f8d041b2a69a8f8d041b2d1" role="menuitem" >
+                                Ordenar por último acceso
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+                <div class="dropdown mb-1">
+                    <button id="displaydropdown" type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                    aria-label="Mostrar menú desplegable">
+                        <span data-active-item-text>
+                            Tarjeta
+                            
+                            
+                        </span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" data-show-active-item data-skip-active-class="true" aria-labelledby="displaydropdown">
+                            <li>
+                                <a class="dropdown-item" href="#" data-display-option="display" data-value="card" data-pref="card" aria-label="Cambiar a vista de tarjeta" aria-controls="courses-view-69a8f8d041b2a69a8f8d041b2d1" role="menuitem" aria-current="true">
+                                    Tarjeta
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" data-display-option="display" data-value="list" data-pref="list" aria-label="Cambiar a vista de lista" aria-controls="courses-view-69a8f8d041b2a69a8f8d041b2d1" role="menuitem" >
+                                    Lista
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#" data-display-option="display" data-value="summary" data-pref="summary" aria-label="Cambiar a vista resumen" aria-controls="courses-view-69a8f8d041b2a69a8f8d041b2d1" role="menuitem" >
+                                    Resumen
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+
+    <div class="container-fluid p-0">
+        <div id="courses-view-69a8f8d041b2a69a8f8d041b2d1"
+            data-region="courses-view"
+            data-display="card"
+            data-grouping="all"
+            data-customfieldname=""
+            data-customfieldvalue=""
+            data-sort="fullname"
+            data-prev-display="card"
+            data-paging="12"
+            data-nocoursesimg="https://www.yosoyhispano.com/plataforma2026/theme/image.php/moove/block_myoverview/1770086771/courses"
+            data-totalcoursecount="12"
+            data-displaycategories="on"
+            data-newcourseurl="">
+            <div data-region="course-view-content">
+                <div data-region="loading-placeholder-content" aria-hidden="true">
+                        <div class="card-grid row row-cols-1 row-cols-sm-2 row-cols-md-3 mx-0 flex-nowrap overflow-hidden" style="height: 13rem">
+                            <div class="col d-flex px-1"><div class="card border-0 px-1">
+    <div class="card-img-top bg-pulse-grey w-100" style="height: 7rem">
+    </div>
+    <div class="card-body pe-1 course-info-container">
+        <div class="bg-pulse-grey w-100" style="height: 1rem"></div>
+    </div>
+</div>
+</div>
+                            <div class="col d-flex px-1"><div class="card border-0 px-1">
+    <div class="card-img-top bg-pulse-grey w-100" style="height: 7rem">
+    </div>
+    <div class="card-body pe-1 course-info-container">
+        <div class="bg-pulse-grey w-100" style="height: 1rem"></div>
+    </div>
+</div>
+</div>
+                            <div class="col d-flex px-1"><div class="card border-0 px-1">
+    <div class="card-img-top bg-pulse-grey w-100" style="height: 7rem">
+    </div>
+    <div class="card-body pe-1 course-info-container">
+        <div class="bg-pulse-grey w-100" style="height: 1rem"></div>
+    </div>
+</div>
+</div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+  <span id="sb-1"></span></section></div>
+                        
+                        
+
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        
+        <footer id="page-footer">
+            <div class="moove-container-fluid footer-columns">
+                <div class="row">
+                    <div class="col-md-4 column-left">
+                        <div class="contact">
+                            <h3 class="footer-title">Contáctanos</h3>
+        
+                            <ul>
+                                    <li>
+                                        <a href="https://yosoyhispano.com" target="_blank" class="website btn btn-link">
+                                            <i class="fa fa-globe"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="tel:7839-5647" target="_blank" class="mobile btn btn-link">
+                                            <i class="fa fa-phone"></i>
+                                        </a>
+                                    </li>
+                            </ul>
+                        </div>
+        
+                        <div class="socialnetworks">
+                            <h3 class="footer-title">Síganos</h3>
+        
+                            <ul class="mb-0">
+                                    <li>
+                                        <a href="https://www.facebook.com/YosoyHispano/" target="_blank" class="facebook btn btn-link btn-rounded">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+        
+        
+        
+        
+                                    <li>
+                                        <a href="https://www.instagram.com/hispano.oficial/?hl=es" target="_blank" class="instagram btn btn-link btn-rounded">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+        
+        
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 column-center">
+                      
+        
+                        <div class="logininfo">Usted se ha identificado como <a href="https://www.yosoyhispano.com/plataforma2026/user/profile.php?id=1411" title="Ver perfil">JESÚS ENRIQUE TUCUBAL IXÉN</a> (<a href="https://www.yosoyhispano.com/plataforma2026/login/logout.php?sesskey=Xd2AaZFgBA">Cerrar sesión</a>)</div>
+        
+                      
+        
+                        <div class="tool_usertours-resettourcontainer"></div>
+                    </div>
+                   
+                </div>
+            </div>
+        
+            <div class="footer-content-debugging footer-dark bg-dark text-light">
+                <div class="moove-container-fluid footer-dark-inner">
+                    
+                </div>
+            </div>
+        
+            <div data-region="footer-container-popover">
+                <button class="btn btn-icon bg-secondary icon-no-margin btn-footer-popover" data-action="footer-popover" aria-label="Mostrar pie de página">
+                    <i class="icon fa fa-question fa-fw " aria-hidden="true" ></i>
+                </button>
+            </div>
+            <div class="footer-content-popover container" data-region="footer-content-popover">
+                
+                <div class="footer-section p-3">
+                    <div>Tel. 7839-5647</div>
+                </div>
+            </div>
+        
+            <div class="copyright">
+                <div class="madeby">
+                    <p>Liceo Cristiano Hispanoamericano 2026</p>
+                    <a href="https://yosoyhispano.com">LCH</a>
+                </div>
+            </div>
+        </footer>
+        
+        <script>
+//<![CDATA[
+var require = {
+    baseUrl : 'https://www.yosoyhispano.com/plataforma2026/lib/requirejs.php/1770086772/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://www.yosoyhispano.com/plataforma2026/lib/javascript.php/1770086772/lib/jquery/jquery-3.7.1.min',
+        jqueryui: 'https://www.yosoyhispano.com/plataforma2026/lib/javascript.php/1770086772/lib/jquery/ui-1.13.2/jquery-ui.min',
+        jqueryprivate: 'https://www.yosoyhispano.com/plataforma2026/lib/javascript.php/1770086772/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script src="https://www.yosoyhispano.com/plataforma2026/lib/javascript.php/1770086772/lib/requirejs/require.min.js"></script>
+<script>
+//<![CDATA[
+M.util.js_pending("core/first");
+require(['core/first'], function() {
+require(['core/prefetch'])
+;
+M.util.js_pending('filter_mathjaxloader/loader'); require(['filter_mathjaxloader/loader'], function(amd) {amd.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"es"}); M.util.js_complete('filter_mathjaxloader/loader');});;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp('es');
+});;
+M.util.js_pending('tool_usertours/usertours'); require(['tool_usertours/usertours'], function(amd) {amd.init([{"tourId":"6","startTour":false,"filtervalues":{"cssselector":{}}}], ["tool_usertours\/filter_cssselector"]); M.util.js_complete('tool_usertours/usertours');});;
+
+require(
+[
+    'jquery',
+    'block_myoverview/main',
+],
+function(
+    $,
+    Main
+) {
+    var root = $('#block-myoverview-69a8f8d041b2a69a8f8d041b2d1');
+    Main.init(root);
+});
+;
+
+    require(['theme_moove/accessibilitybar'], function(AccessibilityBar) {
+        AccessibilityBar.init();
+    });
+;
+
+    require(['core/moremenu'], function(moremenu) {
+        moremenu(document.querySelector('#moremenu-69a8f8d0405b8-navbar-nav'));
+    });
+;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, Controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new Controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+    require(['core/usermenu', 'theme_moove/accessibilitysettings'], function(UserMenu, AccessibilitySettings) {
+        UserMenu.init();
+
+        AccessibilitySettings.init();
+    });
+;
+
+M.util.js_pending('theme_boost/drawers:load');
+require(['theme_boost/drawers'], function() {
+    M.util.js_complete('theme_boost/drawers:load');
+});
+;
+
+    require(['theme_boost/footer-popover'], function(FooterPopover) {
+        FooterPopover.init();
+    });
+;
+
+M.util.js_pending('theme_boost/loader');
+require(['theme_boost/loader', 'theme_boost/drawer'], function(Loader, Drawer) {
+    Drawer.init();
+    M.util.js_complete('theme_boost/loader');
+});
+;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(1, []); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});;
+M.util.js_pending('core/utility'); require(['core/utility'], function(amd) {M.util.js_complete('core/utility');});;
+M.util.js_pending('core/storage_validation'); require(['core/storage_validation'], function(amd) {amd.init(1772681386); M.util.js_complete('core/storage_validation');});
+    M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js?delayStartupUntil=configured"></script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u00daltima modificaci\u00f3n","name":"Nombre","error":"Error","info":"Informaci\u00f3n","yes":"S\u00ed","no":"No","cancel":"Cancelar","confirm":"Confirmar","areyousure":"\u00bfEst\u00e1 seguro?","closebuttontitle":"Cerrar","unknownerror":"Error desconocido","file":"Archivo","url":"URL","collapseall":"Colapsar todo","expandall":"Expandir todo"},"repository":{"type":"Tipo","size":"Tama\u00f1o","invalidjson":"Cadena JSON no v\u00e1lida","nofilesattached":"No se han adjuntado archivos","filepicker":"Selector de archivos","logout":"Salir","nofilesavailable":"No hay archivos disponibles","norepositoriesavailable":"Lo sentimos, ninguno de sus repositorios actuales puede devolver archivos en el formato solicitado.","fileexistsdialogheader":"El archivo existe","fileexistsdialog_editor":"Un archivo con ese nombre ha sido anexado al texto que Usted est\u00e1 editando","fileexistsdialog_filemanager":"Ya ha sido anexado un archivo con ese nombre","renameto":"Cambiar el nombre a \"{$a}\"","referencesexist":"Existen {$a} enlaces a este archivo","select":"Seleccionar"},"admin":{"confirmdeletecomments":"\u00bfSeguro que quiere eliminar el\/los comentario(s) seleccionados?","confirmation":"Confirmaci\u00f3n"},"debug":{"debuginfo":"Informaci\u00f3n de depuraci\u00f3n","line":"L\u00ednea","stacktrace":"Trazado de la pila (stack)"},"langconfig":{"labelsep":":"}};
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() {M.util.help_popups.setup(Y);
+ M.util.js_pending('random69a8f8d041b2d4'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random69a8f8d041b2d4'); });
+})();
+//]]>
+</script>
+
+        
+    </div>
+    
+</div>
+
+
+</body></html>

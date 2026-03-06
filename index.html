@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tecno cell</title>
+</head>
+<body bgcolor="black">
+
+<table width="100%">
+	<tr style="color:white; font-size:19px; text-align:center;">
+		<td><marquee>💸💸 Envío gratis en compras de Q800 o más 💵💵</marquee></td>
+		<td><marquee>💡 Cambios y devoluciones no aplican en productos con descuento 💡</marquee></td>
+		<td><marquee>📍🚩 Cupones no aplican en productos con descuento 🚩📍</marquee></td>
+	</tr>
+</table>
+
+<table width="100%">
+	<tr style="text-align:center;">
+		<td colspan="4">
+			<a href="iphone.html" style="color:white; margin:50px; text-decoration:none;">IPHONE</a>
+			<a href="samsung.html" style="color:white; margin:50px; text-decoration:none;">SAMSUNG</a>
+			<a href="redmagic.html" style="color:white; margin:50px; text-decoration:none;">REDMAGIC</a>
+
+			<br><br>
+
+		
+		</td>
+	</tr>
+</table>
+
+
+<div style="overflow:hidden; width:100%; height:60vh; background:black; display:flex; align-items:center;">
+	
+	<div id="c" style="display:flex; height:100%; transition:transform 0.5s ease;">
+		
+		<img src="iphone.webp"
+		style="width:100%; height:100%; object-fit:contain; flex-shrink:0;">
+
+		<img src="s26u.png"
+		style="width:100%; height:100%; object-fit:contain; flex-shrink:0;">
+
+		<img src="s25u.jpg"
+		style="width:100%; height:100%; object-fit:contain; flex-shrink:0;">
+
+	</div>
+
+</div>
+
+<script>
+	let i = 0;
+	const total = 3;
+
+	function mover(dir) {
+		i = (i + dir + total) % total;
+		document.getElementById("c").style.transform =
+			"translateX(-" + (i * 100) + "%)";
+	}
+
+	setInterval(function(){
+		mover(1);
+	}, 3000);
+</script>
+
+<h1 style="text-align: center; color: #2ca6d7">🚩🚩PRODUCTOS TOP🚩🚩</h1>
+<table width="100%" style="text-align:center; color:white; font-family:Arial;">
+	<tr>
+
+		<td style="padding:30px;">
+			<img src="productos/iphone17.webp"
+			style="width:280px; height:280px; object-fit:contain;">
+			<br><br>
+			<b>iPhone 17 Pro</b>
+			<br><br>
+			<span style="color:#00ff99; font-size:18px;">Q9,999</span>
+			<br><br>
+			
+		</td>
+
+		<td style="padding:30px;">
+			<img src="productos/s26u.jpg"
+			style="width:280px; height:280px; object-fit:contain;">
+			<br><br>
+			<b>Samsung Galaxy S26 Ultra</b>
+			<br><br>
+			<span style="color:#00ff99; font-size:18px;">Q10,499</span>
+			<br><br>
+			
+		</td>
+
+		<td style="padding:30px;">
+			<img src="productos/red10.jpg"
+			style="width:280px; height:280px; object-fit:contain;">
+			<br><br>
+			<b>RedMagic 10 Pro</b>
+			<br><br>
+			<span style="color:#00ff99; font-size:18px;">Q6,999</span>
+			<br><br>
+			
+		</td>
+
+	</tr>
+</table>
+
+
+<table width="100%" style="text-align:center; color:white; font-family:Arial;">
+	<tr>
+
+		<td style="padding:30px;">
+			<img src="productos/iphone16pro.webp"
+			style="width:280px; height:280px; object-fit:contain;">
+			<br><br>
+			<b>iPhone 16 pro</b>
+			<br><br>
+			<span style="color:#00ff99; font-size:18px;">Q8,499</span>
+			<br><br>
+			
+		</td>
+
+		<td style="padding:30px;">
+			<img src="productos/s26+.jpeg"
+			style="width:280px; height:280px; object-fit:contain;">
+			<br><br>
+			<b>Samsung Galaxy S26+</b>
+			<br><br>
+			<span style="color:#00ff99; font-size:18px;">Q9,299</span>
+			<br><br>
+			
+		</td>
+
+		<td style="padding:30px;">
+			<img src="productos/redastra.jpg"
+			style="width:280px; height:280px; object-fit:contain;">
+			<br><br>
+			<b>RedMagic Astra</b>
+			<br><br>
+			<span style="color:#00ff99; font-size:18px;">Q4,999</span>
+			<br><br>
+			
+
+	</tr>
+</table>
+
+<div style="width:100%; height:2px; background:white; margin-top:60px;"></div>
+
+
+<table width="100%" style="text-align:center; color:white; padding:30px; font-family:Arial;">
+	
+	<tr>
+		<td style="font-size:25px; padding-bottom:20px;">
+			Contáctame
+		
+
+		<img src="wa.png" 
+			style="width:40px; height:40px; margin:15px; cursor:pointer;">
+
+			<img src="facebook.webp" 
+			style="width:40px; height:40px; margin:15px; cursor:pointer;">
+
+			<img src="ig.jpg" 
+			style="width:40px; height:40px; margin:15px; cursor:pointer;">
+		</td>
+	</tr>
+
+	
+
+</table>
+
+
+
+</body>
+</html>
